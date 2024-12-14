@@ -1,0 +1,214 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* Application Container */
+.application-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Button Styles */
+button, .btn {
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background-color: #4cae4c;
+}
+
+.reject {
+    background-color: #d9534f;
+}
+
+.reject:hover {
+    background-color: #c9302c;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #4CAF50;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #45a049;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.role-message {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #333;
+}
+
+.job-posts-board, .accepted-jobs, .rejected-jobs, .chat-section {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #eef9f3;
+}
+
+h2, h3 {
+    color: #4CAF50;
+}
+
+.job-posts-board table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.job-posts-board th, .job-posts-board td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.job-posts-board th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.job-posts-board td a {
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.job-posts-board td a:hover {
+    text-decoration: underline;
+}
+
+.chat-users {
+    list-style: none;
+    padding-left: 0;
+}
+
+.chat-users li {
+    margin-bottom: 12px;
+}
+
+.chat-users a {
+    color: #4CAF50;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.chat-users a:hover {
+    text-decoration: underline;
+}
+
+.logout {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logout button {
+    background-color: #d9534f;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.logout button:hover {
+    background-color: #c9302c;
+}
+
+.accepted-jobs, .rejected-jobs {
+    background-color: #d4edda;
+}
+
+.rejected-jobs {
+    background-color: #f8d7da;
+}
+
+.accepted-jobs li, .rejected-jobs li {
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
